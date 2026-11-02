@@ -1,0 +1,159 @@
+.dashboard {
+  padding: 30px;
+  background: #f8f7fc;
+  min-height: 100vh;
+}
+
+.page-title {
+  color: #39205f;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.total-jobs-card {
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  color: white;
+  padding: 22px;
+  border-radius: 15px;
+  width: 220px;
+  margin-bottom: 25px;
+}
+
+.total-jobs-card h2 {
+  font-size: 17px;
+}
+
+.total-jobs-card h1 {
+  font-size: 36px;
+  margin: 10px 0 0;
+}
+
+.chart-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.chart-card h2 {
+  color: #39205f;
+  margin-bottom: 20px;
+}
+
+.add-job-btn,
+.show-jobs-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 8px 8px 20px 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.add-job-btn {
+  background: #7c3aed;
+  color: white;
+}
+
+.show-jobs-btn {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.jobs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+.job-card {
+  background: white;
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+  border-top: 4px solid #8b5cf6;
+}
+
+.job-card h2 {
+  color: #4c1d95;
+  margin-bottom: 8px;
+}
+
+.job-card h3 {
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.job-location {
+  color: #777;
+  margin-bottom: 18px;
+}
+
+.job-details {
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+}
+
+.job-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.job-row span {
+  color: #777;
+}
+
+.job-row strong {
+  color: #39205f;
+}
+
+.job-notes {
+  color: #666;
+  margin: 15px 0;
+}
+
+.job-card a {
+  color: #7c3aed;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.edit-btn,
+.delete-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.edit-btn {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.delete-btn {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+@media (max-width: 600px) {
+  .dashboard {
+    padding: 15px;
+  }
+
+  .page-title {
+    font-size: 25px;
+  }
+}

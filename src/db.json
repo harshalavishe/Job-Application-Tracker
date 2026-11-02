@@ -1,0 +1,65 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "company": "TCS",
+      "role": "React Developer Intern",
+      "location": "Mumbai",
+      "jobType": "Internship",
+      "appliedDate": "2026-10-25",
+      "status": "Interviewed",
+      "salary": "15000",
+      "jobLink": "https://www.tcs.com/careers",
+      "notes": "Technical interview completed"
+    },
+    {
+      "id": "3",
+      "company": "Infosys",
+      "role": "Software Engineer",
+      "location": "Bangalore",
+      "jobType": "Full-time",
+      "appliedDate": "2026-10-28",
+      "status": "Rejected",
+      "salary": "400000",
+      "jobLink": "https://www.infosys.com/careers/",
+      "notes": "Application rejected"
+    },
+    {
+      "company": "wipro",
+      "role": "frontend development",
+      "location": "nashik",
+      "jobType": "Internship",
+      "appliedDate": "2026-10-31",
+      "status": "Rejected",
+      "salary": "10000",
+      "jobLink": "www.com",
+      "notes": "ty",
+      "id": "B88961BwFh4"
+    },
+    {
+      "company": "Google",
+      "role": "fullstack developer",
+      "location": "Mumbai",
+      "jobType": "Part-time",
+      "appliedDate": "2026-10-28",
+      "status": "Selected",
+      "salary": "30000",
+      "jobLink": "wwwgooogle.com",
+      "notes": "thank u for giving me this opportunity",
+      "id": "UMN0_AEaoGo"
+    },
+    {
+      "company": "Microsoft",
+      "role": "SSoftware Developer",
+      "location": "Mumbai",
+      "jobType": "Full-time",
+      "appliedDate": "2026-11-11",
+      "status": "Applied",
+      "salary": "30000",
+      "jobLink": "https://www.linkedin.com/jobs/",
+      "notes": "Applied as a fresher. Interested in software development.",
+      "id": "OrkcpXPU6FA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

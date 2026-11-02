@@ -1,0 +1,130 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.signin-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  background: #f4f6fb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Login Card */
+.signin-form {
+  width: 100%;
+  max-width: 475px;
+  padding: 42px;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.signin-form-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.signin-form-heading h1 {
+  margin: 0 0 10px;
+  color: #5145ed;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.signin-form-heading p {
+  margin: 0;
+  color: #666666;
+  font-size: 19px;
+}
+
+/* Labels */
+.signin-form > label {
+  display: block;
+  margin: 20px 0 9px;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* Input Fields */
+.signin-form > input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 9px;
+  outline: none;
+  background: #ffffff;
+  color: #000000;
+  font-size: 16px;
+}
+
+.signin-form > input:focus {
+  border-color: #5145ed;
+  box-shadow: 0 0 0 3px rgba(81, 69, 237, 0.1);
+}
+
+.signin-form > input::placeholder {
+  color: #888888;
+}
+
+/* Sign In Button */
+.signin-button {
+  width: 100%;
+  margin-top: 23px;
+  padding: 15px;
+  border: none;
+  border-radius: 9px;
+  background: #5145ed;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signin-button:hover {
+  background: #4035d5;
+  transform: translateY(-2px);
+}
+
+/* Sign Up */
+.signin-register {
+  margin: 22px 0 0;
+  text-align: center;
+  color: #000000;
+  font-size: 17px;
+}
+
+.signin-register a {
+  color: #5145ed;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.signin-register a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 500px) {
+  .signin-form {
+    padding: 30px 22px;
+  }
+
+  .signin-form-heading h1 {
+    font-size: 32px;
+  }
+
+  .signin-form-heading p {
+    font-size: 16px;
+  }
+
+  .signin-register {
+    font-size: 14px;
+  }
+}

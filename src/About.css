@@ -1,0 +1,58 @@
+.about-page {
+  min-height: 80vh;
+  padding: 60px 20px;
+  background: #f8f7ff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.about-page h1 {
+  color: #222;
+  font-size: 36px;
+}
+
+.about-page h1 span {
+  color: #6238d1;
+}
+
+.about-intro {
+  color: #666;
+  font-size: 17px;
+  margin-bottom: 35px;
+}
+
+.about-card {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px #0000000d;
+  text-align: left;
+}
+
+.about-card h2 {
+  color: #6238d1;
+  font-size: 22px;
+}
+
+.about-card p,
+.about-card li {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.about-card ul {
+  padding-left: 22px;
+}
+
+@media (max-width: 600px) {
+  .about-page h1 {
+    font-size: 28px;
+  }
+
+  .about-card {
+    padding: 20px;
+  }
+}
